@@ -1,0 +1,37 @@
+.button {
+	width: 100%;
+	max-width: 400px;
+	border-radius: 8px;
+	margin-top: 12px;
+	padding: 8px 12px;
+}
+
+.button--size-md {
+	font-size: 16px;
+	height: 36px;
+}
+
+.button--size-lg {
+	font-size: 18px;
+	font-weight: 600;
+	height: 52px;
+	margin-top: 12px;
+}
+
+.button--primary {
+	background-color: rgba(59, 130, 246, 1);
+	color: white;
+	transition: background-color 0.2s linear;
+	&:hover {
+		background-color: rgba(29, 78, 216, 1);
+	}
+}
+
+.button--secondary {
+	background-color: rgba(107, 114, 128, 1);
+	color: white;
+	transition: background-color 0.2s linear;
+	&:hover {
+		background-color: rgba(31, 41, 55, 1);
+	}
+}

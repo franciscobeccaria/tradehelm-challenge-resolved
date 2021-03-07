@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $inter-family;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+/* a {
+	text-decoration: none;
+	color: black;
+} */
+
+button {
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#root {
+	min-height: 100vh;
+}

@@ -1,0 +1,43 @@
+// Colors in CSS Variables:
+:root {
+	--color-bg: #073b4c;
+	--color-first: #118ab2;
+	--color-second: #06d6a0;
+	--color-third: #ffd166;
+	--color-fourth: #ef476f;
+	--color-white: #ffffff;
+	--color-black: #000000;
+}
+
+// Colors in SASS Variables:
+$color-bg: #073b4c;
+$color-first: #118ab2;
+$color-second: #06d6a0;
+$color-third: #ffd166;
+$color-fourth: #ef476f;
+$color-black: #000000;
+$color-white: #ffffff;
+
+// Z-Index in CSS Variables:
+:root {
+	--z-doubleback: -20;
+	--z-back: -10;
+	--z-middleback: -5;
+	--z-normal: 1;
+	--z-positivenormal: 5;
+	--z-tooltip: 10;
+	--z-doubletooltip: 20;
+	--z-fixed: 100;
+	--z-modal: 1000;
+}
+
+// Fonts
+$inter-family: 'Inter', Arial, Helvetica, sans-serif;
+
+// Breakpoints
+$breakpoints: (
+	400: 400px,
+	640: 640px,
+	770: 770px,
+	1024: 1024px,
+);
